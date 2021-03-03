@@ -1,0 +1,23 @@
+y(t) = 5|G(j\omega)|sen(\omega t + \phi(\omega))
+
+y(t) = 5 [\frac{\omega_n^2}{\sqrt{(\omega_n^2-\omega)^2+(2\xi\omega_n\omega)^2}}] \cdot
+sen(\omega t -tan^{-1}(\frac{2\xi\omega_n\omega}{\omega_n^2-\omega}))
+
+\omega_n = \frac{1}{\sqrt{LC}}  = 21,320 \cdot 10^3
+\omega_n^2 = 454,545 \cdot 10^6
+
+2\xi\omega_n = 2\cdot 175,890\cdot10^3 \cdot 21,320 \cdot 10^3 = 7,5\cdot 10^9 
+
+\Rightarrow (2\xi\omega_n)^2 = (7,5\cdot 10^9 )^2 = 5,624\cdot 10^{19}
+
+y(t) = 5 [\frac{454,545 \cdot 10^6}{\sqrt{(454,545 \cdot 10^6-\omega)^2+(7,5\cdot 10^9 \cdot \omega)^2}}] \cdot sen(\omega t -tan^{-1}(\frac{7,5\cdot 10^9\omega}{454,545 \cdot 10^6-\omega}))
+
+Relação wn e xsi
+\omega_n = \alpha \xi \Rightarrow \frac{1}{\sqrt{LC}} = \alpha\cdot\frac{R}{2}\sqrt{\frac{C}{L}}
+
+\frac{1}{L^{0.5}C^{0.5}} = \alpha\cdot\frac{R}{2}\frac{C^{0.5}}{L^{0.5}} \\
+\alpha = \frac{1}{L^{0.5}C^{0.5}} \cdot \frac{2}{R}\frac{L^{0.5}}{C^{0.5}} \\
+\alpha = \frac{2}{R\cdot C^{0.5} \cdot C^{0.5}} \\
+\therefore \alpha = \frac{2}{RC} 
+
+
