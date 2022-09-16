@@ -1,0 +1,59 @@
+
+\bullet \omega \rightarrow  0 \ \ \bullet \omega = \omega_r \ \ \bullet \omega = \omega_n \ \ \bullet \omega \rightarrow \infty
+
+G(s) = \frac{1}{s^2 + 0,8s + 1}
+
+\tau_a = 0 \ \ e \ \ K =1 
+
+s^2 = \tau s^2 \Rightarrow \ \tau^2 = 1  \Rightarrow \ \tau=1 
+
+\therefore 2\xi\tau s =0,8s \Rightarrow \ 2\xi =0,8 \Rightarrow \xi =0,4
+
+\tau =  \frac{1}{\omega_n} \Rightarrow \omega_n = 1 rad/seg
+
+G(jw) = \frac{1}{(j\omega)^2+ 0,8(j\omega) + 1}
+
+\mathbb{R}\left\{ 1 \right\} = 1 \\
+\mathbb{I}\left\{ 1 \right\} = 1 
+| \ \ | = \sqrt(1^2) = 1
+\angle  =  0 ^{\circ}
+
+
+\mathbb{I}\left\{ (j\omega)^2+ 0,8(j\omega) + 1 \right\} = 0,8 \omega
+\mathbb{R}\left\{ (j\omega)^2+ 0,8(j\omega) + 1 \right\} = 1-\omega^2
+
+| \ \ | = \sqrt((1-\omega^2)^2 + (0,8\omega)^2 )
+\angle  =  tan^{-1}(\frac{0,8\omega}{1-\omega^2})
+
+
+|G(jw)| = \frac{|num|}{|den|} = \frac{1}{\sqrt((1-\omega^2)^2 + (0,8\omega)^2 )}
+
+\angle G(jw) = \angle(num) - \angle(den) = 0^{\circ} - tan^{-1}(\frac{0,8\omega}{1-\omega^2})
+
+|G(jw)| = \frac{1}{\sqrt((1-0^2)^2 + (0,8\cdot0)^2 )} = 1
+\angle G(jw) = - tan^{-1}(\frac{0,8\cdot0}{1-0^2})=0
+
+
+|G(jw_r)| = \frac{1}{\sqrt((1-1^2)^2 + (0,8\cdot1)^2 )} = 1,25rad/s
+
+
+\displaystyle \lim_{w \to \infty}|G(jw)| = \frac{1}{\infty} = 0
+
+
+
+\displaystyle \lim_{w \to \infty}\angle G(jw)\Rightarrow  \angle G(jw)=-180^{\circ}
+
+G(jw) = \frac{1}{(j\omega)^2+ 0,8(j\omega) + 1} =  
+\frac{1}{(1-\omega^2)+ 0,8(j\omega)}\ \cdot \ \frac{(1-\omega^2)-0,8j\omega}{(1-\omega^2)-0,8j\omega} 
+
+G(jw) = \frac{(1-\omega^2)-0,8j\omega}{(1-\omega^2)^2+(0,8\omega)^2} = \frac{1-\omega^2}{{(1-\omega^2)^2+(0,8\omega)^2}} \ - \ \frac{0,8\omega}{{(1-\omega^2)^2+(0,8\omega)^2}} j
+
+ \frac{1-\omega^2}{{(1-\omega^2)^2+(0,8\omega)^2}} = 0 \Rightarrow \omega = 1
+
+
+\frac{0,8\omega}{{(1-\omega^2)^2+(0,8\omega)^2}} j = 0
+
+
+
+
+
